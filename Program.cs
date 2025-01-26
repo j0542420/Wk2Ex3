@@ -23,8 +23,6 @@ namespace Wk2Ex3
 
             //calculate the temperature from F to C
             double C = (F-32)*5/9;
-            // round up to two decimals
-            C = Math.Round(C, 2);
 
             //output the result
             Console.WriteLine($"{F}°F is equivalent to {C}°C");
